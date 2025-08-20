@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title><?php echo @$category->title; ?> | <?php echo @$page_title; ?> | AluTech</title>
+	<?php echo @$meta_keywords; ?>
+	<?php echo @$meta_description; ?>
+	<meta name="author" content="Design: www.2fgstudio.hr | Development: www.egomedia.hr" />
+	<link href="<?php echo base_url(); ?>css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>css/font-awesome.min.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>css/stil.css" rel="stylesheet">
+	<link href="<?php echo base_url(); ?>css/responsive.css" rel="stylesheet">
+	<link rel="stylesheet" href="<?php echo base_url(); ?>css/jquery.fancybox.min.css" type="text/css" />
+    <!--[if lt IE 7]>
+            <p class="browsehappy">
+			<?php if ( is_lang('fr') ) {
+					echo "Vous utilisez un <strong> pas à jour</strong> navigateur. Se il vous plaît mettre à jour votre navigateur pour améliorer votre expérience.";
+					} elseif ( is_lang('it') ) {
+						echo "Si sta utilizzando un<strong> obsoleto</strong> del browser. Aggiornare il browser per migliorare la vostra esperienza.";
+					} elseif ( is_lang('de') ) {
+						echo "Sie verwenden ein<strong> überholt</strong> Browser. Bitte aktualisiere deinen Browser, um für Sie zu verbessern.";
+					} elseif ( is_lang('en') ) {
+						echo "You are using an<strong>outdated</strong> browser. Please upgrade your browser to improve your experience.";
+					} else {
+						echo "Vi koristite<strong> zastarjeli</strong> preglednik (browser). Molimo nadogradite svoj preglednik za poboljšanje prikaza naših stranica.";
+				}
+			?></p>
+        <![endif]-->
+    <!--[if lt IE 9]>
+    <script src="<?php echo base_url(); ?>js/html5shiv.js"></script>
+    <script src="<?php echo base_url(); ?>js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body data-spy="scroll" data-target="#navbar" data-offset="0">
+<!--?php if( is_homepage() ): ?>
+	<div id="obavijest">
+        <div id="obavijestSadrzaj">
+			Javni poziv
+			<br>Kandidiranje projekata za stvaranje zalihe istraživačko-razvojnih projekata
+			<br><br>Rok za dostavu prijava je 07. listopada 2016. godine do 15 sati.<br><br>
+			<a href="http://alutech.hr/novosti/javni-poziv-24-rujna-2015-kandidiranje-projekata-za-stvaranje-zalihe-istrazivacko-razvojnih-projekata" target="_self">>>> KLIKNI OVDJE</a>
+            <div id="obavijestZatvori">Zatvori (X)</div>
+	   </div>
+    </div--!>
+<!--?php endif; ?-->
+    <header id="header" role="banner">
+        <div class="container">
+	
+			<div id="jezici">
+				<ul class="lang">
+					<?php echo list_languages(array('layout' => 'li', 'title' => 'code')); ?>
+				</ul>
+			</div>
+            <div id="navbar" class="navbar navbar-default">
+                <div class="navbar-header">
+                   <a class="navbar-brand" href="http://alutech.hr/"><img class="img-responsive" src="<?php echo base_url(); ?>images/logo.png"></a>
+				   <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>                    
+                </div>
+                <div class="collapse navbar-collapse pull-right">
+					<?php 
+						$menu = menu(array(
+							'identifier' => 'main',
+							'layout' => 'ul',
+							'before_item' => '',
+							'after_item' => '',
+							'menu_attr' => 'class="nav navbar-nav"'
+						));
+						echo $menu; 
+						?>
+                </div>
+            </div>
+        </div>
+    </header>
+
+	<?php echo $content; ?>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+					<div class="row">
+						<span style="clear:both;"></span>				
+					</div>          
+                </div>
+            </div>
+			<div class="row newsletteri">
+                <div class="col-sm-12">
+                     <?php
+										if ( is_lang('fr') ) {
+											echo "Version en ligne de la newsletter: ";
+										} elseif ( is_lang('it') ) {
+											echo "Versione web della newsletter: ";
+										} elseif ( is_lang('de') ) {
+											echo "Online-Version des Newsletters: ";
+										} elseif ( is_lang('en') ) {
+											echo "Online version of the newsletter: ";
+										} else {
+											echo "Pročitajte online verziju newslettera: ";
+										}
+										?><a href="<?php echo base_url(); ?>newsletter/2015_ozujak/index.html" target="_blank"> ISSUE 1 </a> / <a href="<?php echo base_url(); ?>newsletter/2015_kolovoz/index.html" target="_blank"> ISSUE 2</a> / <a href="<?php echo base_url(); ?>newsletter/2016_veljaca/index.html" target="_blank"> ISSUE 3 / <a href="<?php echo base_url(); ?>newsletter/2016_lipanj/index.html" target="_blank"> ISSUE 4</a>
+                </div>
+            </div>
+			<div class="row">
+                <div class="col-sm-12">
+                     <img class="img-responsive pull-left footer-logotipi" src="<?php echo base_url(); ?>images/logotipi.png" alt="" title="">
+                </div>
+            </div>
+			<div class="row">
+                <div class="col-sm-12">
+					<?php echo @block('sadrzaj_publikacije', false); ?>
+                </div>
+				<hr>
+            </div>
+			<div class="row">
+                <div class="col-sm-6">
+                    <?php echo @block('copyright', false); ?>
+                </div>
+                <div class="col-sm-6">
+                    <?php echo @block('web_design_development', false); ?>
+                </div>
+            </div>
+			<div class="row">
+                <div class="col-sm-12">
+					<a class="naVrh" href="#"><img src="<?php echo base_url(); ?>images/strelica-gore.png"></a>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+	
+    <script src="<?php echo base_url(); ?>js/jquery.js"></script>
+    <script src="<?php echo base_url(); ?>js/bootstrap.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+	<script src="<?php echo base_url(); ?>js/funkcije.js"></script>	
+	<script src="http://maps.google.com/maps/api/js?sensor=false" type="text/javascript"></script>
+	<script type="text/javascript">
+    var locations = [
+        ['<?php if ( is_lang('fr') ) { echo "Institution publique Agence de Développement du Comitat de Šibenik-Knin<br>Prilaz Tvornici 39<br>HR-22000 Šibenik, Croatie<br>Téléphone: +385 (22) 217 113<br>Fax: +385 (22) 217 114<br>rra@rra-sibenik.hr"; } elseif ( is_lang('it') ) { echo "Istituzione pubblica Agenzia per lo Sviluppo della Regione di Sebenico e Tenin<br>Prilaz Tvornici 39<br>HR-22000 Šibenik, Croazia<br>Telefono: +385 (22) 217 113<br>Fax: +385 (22) 217 114<br>rra@rra-sibenik.hr"; } elseif ( is_lang('de') ) { echo "Öffentliche Einrichtung Entwicklungsagentur der Region Sibenik-Knin<br>Prilaz Tvornici 39<br>HR-22000 Šibenik, Kroatien<br>Telefon: +385 (22) 217 113<br>Fax: +385 (22) 217 114<br>rra@rra-sibenik.hr"; } elseif ( is_lang('en') ) { echo "Public Institution Development Agency of the Šibenik-Knin County<br>Prilaz Tvornici 39<br>HR-22000 Šibenik, Croatia<br>Phone: +385 (22) 217 113<br>Fax: +385 (22) 217 114<br>rra@rra-sibenik.hr"; } else { echo "Javna ustanova Razvojna agencija Šibensko-kninske županije<br>Prilaz Tvornici 39<br>HR-22000 Šibenik, Hrvatska<br>Tel: +385 (22) 217 113<br>Fax: +385 (22) 217 114<br>rra@rra-sibenik.hr"; } ?>', 43.742679, 15.885891, 4],
+        ['<?php if ( is_lang('fr') ) { echo "Centre du Développement et de l Innovation ALUTECH<br>Velimira Škorpika 6<br>HR-22000 Šibenik, Croatie"; } elseif ( is_lang('it') ) { echo "Centro per lo Sviluppo e l Innovazione ALUTECH<br>Velimira Škorpika 6<br>HR-22000 Šibenik, Croazia"; } elseif ( is_lang('de') ) { echo "ALUTECH Entwicklungs- und Innovationszentrum<br>Velimira Škorpika 6<br>HR-22000 Šibenik, Kroatien"; } elseif ( is_lang('en') ) { echo "ALUTECH Development-Innovation Center<br>Velimira Škorpika 6<br>HR-22000 Šibenik, Croatia"; } else { echo "AluTech - Razvojno-inovacijski centar<br>Velimira Škorpika 6<br>HR-22000 Šibenik, Hrvatska"; } ?>', 43.714908, 15.907028, 5]
+    ];
+    var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 13, 
+		center: new google.maps.LatLng(43.742679, 15.885891),
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+    });
+    var infowindow = new google.maps.InfoWindow();
+    var marker, i;
+    for (i = 0; i < locations.length; i++) {
+        marker = new google.maps.Marker({
+            position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+            map: map
+        });
+        google.maps.event.addListener(marker, 'click', (function (marker, i) {
+            return function () {
+                infowindow.setContent(locations[i][0]);
+                infowindow.open(map, marker);
+            }
+        })(marker, i));
+    }
+	</script>
+		<script type="text/javascript">
+    var speed = 1000;
+    $(window).load( function() {
+        screenHeight = $(window).height();
+        screenWidth = $(window).width();
+        elemWidth = $('#obavijest').outerWidth(true);
+        elemHeight = $('#obavijest').outerHeight(true)
+         
+        leftPosition = (screenWidth / 2) - (elemWidth / 2);
+        topPosition = (screenHeight / 2) - (elemHeight / 2);
+         
+        $('#obavijest').css({
+            'left' : leftPosition + 'px',
+            'top' : -elemHeight + 'px'
+        });
+        $('#obavijest').show().animate({
+            'top' : topPosition
+        }, speed);
+
+        $('#obavijestZatvori').click( function() {
+           
+            $('#obavijest').animate({
+            'top' : -elemHeight + 'px'
+        }, speed, function() {
+            
+                $(this).remove();
+            });
+             
+        });
+    });
+     
+</script>
+</body>
+</html>

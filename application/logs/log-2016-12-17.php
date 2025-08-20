@@ -1,0 +1,58 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed'); ?>
+
+ERROR - 17.12.2016. --> Severity: Notice  --> Undefined variable: category /home/alutechh/public_html/application/views/master.php 5
+ERROR - 17.12.2016. --> Severity: Notice  --> Trying to get property of non-object /home/alutechh/public_html/application/views/master.php 5
+ERROR - 17.12.2016. --> Severity: Notice  --> Undefined variable: category /home/alutechh/public_html/application/views/master.php 5
+ERROR - 17.12.2016. --> Severity: Notice  --> Trying to get property of non-object /home/alutechh/public_html/application/views/master.php 5
+ERROR - 17.12.2016. --> Severity: Notice  --> Undefined variable: category /home/alutechh/public_html/application/views/master.php 5
+ERROR - 17.12.2016. --> Severity: Notice  --> Trying to get property of non-object /home/alutechh/public_html/application/views/master.php 5
+ERROR - 17.12.2016. --> Severity: Notice  --> Undefined variable: category /home/alutechh/public_html/application/views/master.php 5
+ERROR - 17.12.2016. --> Severity: Notice  --> Trying to get property of non-object /home/alutechh/public_html/application/views/master.php 5
+ERROR - 17.12.2016. --> Severity: Notice  --> Undefined variable: category /home/alutechh/public_html/application/views/master.php 5
+ERROR - 17.12.2016. --> Severity: Notice  --> Trying to get property of non-object /home/alutechh/public_html/application/views/master.php 5
+ERROR - 17.12.2016. --> Severity: Notice  --> Undefined variable: category /home/alutechh/public_html/application/views/master.php 5
+ERROR - 17.12.2016. --> Severity: Notice  --> Trying to get property of non-object /home/alutechh/public_html/application/views/master.php 5
+ERROR - 17.12.2016. --> Severity: Notice  --> Undefined variable: category /home/alutechh/public_html/application/views/master.php 5
+ERROR - 17.12.2016. --> Severity: Notice  --> Trying to get property of non-object /home/alutechh/public_html/application/views/master.php 5
+ERROR - 17.12.2016. --> Severity: Notice  --> Undefined variable: category /home/alutechh/public_html/application/views/master.php 5
+ERROR - 17.12.2016. --> Severity: Notice  --> Trying to get property of non-object /home/alutechh/public_html/application/views/master.php 5
+ERROR - 17.12.2016. --> Severity: Notice  --> Undefined variable: category /home/alutechh/public_html/application/views/master.php 5
+ERROR - 17.12.2016. --> Severity: Notice  --> Trying to get property of non-object /home/alutechh/public_html/application/views/master.php 5
+ERROR - 17.12.2016. --> Severity: Notice  --> Undefined variable: category /home/alutechh/public_html/application/views/master.php 5
+ERROR - 17.12.2016. --> Severity: Notice  --> Trying to get property of non-object /home/alutechh/public_html/application/views/master.php 5
+ERROR - 17.12.2016. --> Severity: Notice  --> Undefined variable: category /home/alutechh/public_html/application/views/master.php 5
+ERROR - 17.12.2016. --> Severity: Notice  --> Trying to get property of non-object /home/alutechh/public_html/application/views/master.php 5
+ERROR - 17.12.2016. --> Severity: Notice  --> Undefined variable: category /home/alutechh/public_html/application/views/master.php 5
+ERROR - 17.12.2016. --> Severity: Notice  --> Trying to get property of non-object /home/alutechh/public_html/application/views/master.php 5
+ERROR - 17.12.2016. --> Severity: Notice  --> Undefined variable: category /home/alutechh/public_html/application/views/master.php 5
+ERROR - 17.12.2016. --> Severity: Notice  --> Trying to get property of non-object /home/alutechh/public_html/application/views/master.php 5
+ERROR - 17.12.2016. --> Severity: Notice  --> Undefined variable: category /home/alutechh/public_html/application/views/master.php 5
+ERROR - 17.12.2016. --> Severity: Notice  --> Trying to get property of non-object /home/alutechh/public_html/application/views/master.php 5
+ERROR - 17.12.2016. --> Severity: Notice  --> Undefined variable: category /home/alutechh/public_html/application/views/master.php 5
+ERROR - 17.12.2016. --> Severity: Notice  --> Trying to get property of non-object /home/alutechh/public_html/application/views/master.php 5
+ERROR - 17.12.2016. --> Severity: Notice  --> Undefined variable: category /home/alutechh/public_html/application/views/master.php 5
+ERROR - 17.12.2016. --> Severity: Notice  --> Trying to get property of non-object /home/alutechh/public_html/application/views/master.php 5
+ERROR - 17.12.2016. --> Severity: Notice  --> Undefined variable: category /home/alutechh/public_html/application/views/master.php 5
+ERROR - 17.12.2016. --> Severity: Notice  --> Trying to get property of non-object /home/alutechh/public_html/application/views/master.php 5
+ERROR - 17.12.2016. --> Severity: Notice  --> Undefined variable: category /home/alutechh/public_html/application/views/master.php 5
+ERROR - 17.12.2016. --> Severity: Notice  --> Trying to get property of non-object /home/alutechh/public_html/application/views/master.php 5
+ERROR - 17.12.2016. --> Severity: Notice  --> Undefined variable: category /home/alutechh/public_html/application/views/master.php 5
+ERROR - 17.12.2016. --> Severity: Notice  --> Trying to get property of non-object /home/alutechh/public_html/application/views/master.php 5
+ERROR - 17.12.2016. --> Severity: Notice  --> Undefined variable: category /home/alutechh/public_html/application/views/master.php 5
+ERROR - 17.12.2016. --> Severity: Notice  --> Trying to get property of non-object /home/alutechh/public_html/application/views/master.php 5
+ERROR - 17.12.2016. --> Severity: Notice  --> Undefined variable: category /home/alutechh/public_html/application/views/master.php 5
+ERROR - 17.12.2016. --> Severity: Notice  --> Trying to get property of non-object /home/alutechh/public_html/application/views/master.php 5
+ERROR - 17.12.2016. --> Severity: Notice  --> Undefined variable: category /home/alutechh/public_html/application/views/master.php 5
+ERROR - 17.12.2016. --> Severity: Notice  --> Trying to get property of non-object /home/alutechh/public_html/application/views/master.php 5
+ERROR - 17.12.2016. --> Severity: Notice  --> Undefined variable: category /home/alutechh/public_html/application/views/master.php 5
+ERROR - 17.12.2016. --> Severity: Notice  --> Trying to get property of non-object /home/alutechh/public_html/application/views/master.php 5
+ERROR - 17.12.2016. --> Severity: Notice  --> Undefined variable: category /home/alutechh/public_html/application/views/master.php 5
+ERROR - 17.12.2016. --> Severity: Notice  --> Trying to get property of non-object /home/alutechh/public_html/application/views/master.php 5
+ERROR - 17.12.2016. --> Severity: Notice  --> Undefined variable: category /home/alutechh/public_html/application/views/master.php 5
+ERROR - 17.12.2016. --> Severity: Notice  --> Trying to get property of non-object /home/alutechh/public_html/application/views/master.php 5
+ERROR - 17.12.2016. --> Severity: Notice  --> Undefined variable: category /home/alutechh/public_html/application/views/master.php 5
+ERROR - 17.12.2016. --> Severity: Notice  --> Trying to get property of non-object /home/alutechh/public_html/application/views/master.php 5
+ERROR - 17.12.2016. --> Severity: Notice  --> Undefined variable: category /home/alutechh/public_html/application/views/master.php 5
+ERROR - 17.12.2016. --> Severity: Notice  --> Trying to get property of non-object /home/alutechh/public_html/application/views/master.php 5
+ERROR - 17.12.2016. --> Severity: Notice  --> Undefined variable: category /home/alutechh/public_html/application/views/master.php 5
+ERROR - 17.12.2016. --> Severity: Notice  --> Trying to get property of non-object /home/alutechh/public_html/application/views/master.php 5

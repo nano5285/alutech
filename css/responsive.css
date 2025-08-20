@@ -1,0 +1,100 @@
+/* md */
+@media (min-width: 992px) and (max-width: 1199px) {
+	.navbar-nav { margin: -145px 0 0 0 }
+	#centar:before { background-color: #fff; background-image:none; }
+	.novosti h3  { font-size: 19px; line-height:26px; font-weight:bold; }
+	.navbar-default .navbar-nav > li:first-child  { display:none; }
+}
+
+/* sm */
+@media (min-width: 768px) and (max-width: 991px) {
+	#header { height:  225px; }
+	
+	.navbar-default .navbar-brand { margin-right: 0; margin-left: 0; margin-top:20px; margin-bottom:14px;display:block; }
+	.navbar-default .navbar-toggle { width: 100%; float: none; margin-right: 0; border-radius:0;}
+	.navbar-default .navbar-toggle span { margin: 0px auto; color:#fff;}
+	.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus { background:none; border-color:#fff;  }
+	.navbar-nav { margin: 20px auto; }
+
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form { border-color: transparent; }
+	.navbar-collapse { margin-top:0px auto;}
+
+	#main-slider .item.active h1 { font-size: 40px; line-height:50px; }
+	#main-slider h1 { font-size: 40px; padding-bottom:10px;line-height:50px; }
+	#main-slider h1 span { font-size: 40px;}
+	#main-slider .lead  { color: #fff; padding: 0px 0 50px 0; font-size: 14px; font-weight:bold; width: 100%; margin: 0px auto 10px auto; line-height:24px; }
+	#main-slider .lead span { color: #a6d8ff; padding: 10px 0 10px 0; font-size: 19px; font-weight:bold; width: 100%; margin: 0px auto; margin-bottom: 10px;  }
+	#main-slider span.light-blue { display:inline; font-size: 14px; font-weight:bold; color: #a6d8ff; }
+	
+	#centar:before { background-color: #fff; background-image:none; }
+	
+	.form-control { font-size: 15px; }
+	.novosti h3  { font-size: 14px; line-height:26px; font-weight:bold; }
+	.natrag { font-size:16px; padding: 10px 16px; display: inline-block; margin: 20px auto; }
+	.scroll { margin: 25px auto 85px auto; }
+}
+
+@media (max-width: 767px)  {
+	.naVrh { display:block; width:39px; margin:20px auto 0 auto; height:52px; }
+	.navbar-default .navbar-brand { margin-right: 0; margin-left: 0; margin-top:20px; display:block; }
+	#header { height: 205px; }
+	.navbar-default .navbar-toggle { width: 100%; float: none; margin-right: 0; border-radius:0; }
+	.navbar-default .navbar-toggle span { margin: 0px auto; color:#fff; }
+	.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus { background:none; border-color:#fff; }
+	.navbar-nav { margin-top: 0px; float:none; display:block; }
+	.navbar-toggle .icon-bar+.icon-bar { margin-top: 5px; }
+	.navbar-default .navbar-toggle .icon-bar { background-color: #fff; }
+	.navbar-toggle .icon-bar { width: 90px;}
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form { border-color: transparent; }
+	.navbar-collapse { overflow-x: hidden; box-shadow: 0 0 0; background: #fff; width: 100%; max-height: 100%; margin-top:-9px; }
+	.navbar-default .navbar-nav > li { width:100%; display:block; margin: 4px 0 4px 0; padding:5px 0 5px 0; }
+	.navbar-default .navbar-nav > li > a { margin: 0; border:0;}
+	.navbar-default .navbar-nav > li:first-child  { display:block; border-right: none; margin-right:0; padding-right:0  }
+	.navbar-default .navbar-nav > li:last-child  { border-right: none; margin-right:0px; padding-right:0  }
+	.navbar-default .navbar-nav > li.active > a, .navbar-default .navbar-nav > li.active:focus > a, .navbar-default .navbar-nav > li.active:hover > a,
+	.navbar-default .navbar-nav > li.active > a:focus, .navbar-default .navbar-nav > li.active:focus > a:focus, .navbar-default .navbar-nav > li.active:hover > a:focus { background-color: none; border-bottom: 0px solid rgba(204,204,204, 0.8); }
+	.dropdown-menu { padding: 5px 8px; margin: 2px 0 0; font-size: 15px; }
+	.dropdown-menu a { height: 30px; }
+
+	.naslovnica { padding: 220px 0 80px 0; }
+	.centar { padding: 220px 0 80px 0; }
+	.dokumenti { padding: 220px 0 80px 0; }
+	.partneri { padding: 220px 0 80px 0; }
+	.projekt{ padding: 220px 0 80px 0; }
+	.novosti { padding: 220px 0 130px 0; }
+	.kontakt { padding: 260px 0 80px 0; }
+	.404 { padding: 260px 0 80px 0; }
+		
+	#main-slider .box { padding-top: 54px; border-bottom: 0; }
+	
+	#main-slider .item { -moz-transition: none; -o-transition: none; -webkit-transition: none; transition: none; opacity: 1; position: relative; z-index: 1; }
+	#main-slider .item.active { display:block; opacity: 1; -moz-transition: none; -o-transition: none; -webkit-transition: none; transition: none; z-index: 1; }
+	#main-slider .item.active h1 { -webkit-animation: none; -moz-animation: none; -o-animation: none; -ms-animation: none; animation: none; line-height:31px;}
+	#main-slider .prev, #main-slider .next { display:none; }
+
+	#main-slider h1 { font-size: 28px; padding-bottom:10px; line-height:25px; }
+	#main-slider h1 span { font-size: 28px; }
+	#main-slider .lead  { font-size: 12px; line-height:21px; }
+	#main-slider .lead span { display:block; padding: 5px 0 5px 0; font-size: 14px; margin-bottom: 5px; }
+	#main-slider span.light-blue { display:inline; font-size: 14px; }
+
+	#centar:before { background-color: #fff; background-image:none; }
+	#centar h1 {  margin-bottom:53px; }
+	#dokumenti h1 {  margin-bottom:53px; }
+	#partneri h1 { margin-bottom:53px; }
+	.zupcanik-v { display:none; }
+	.logo-znak { color: #fff; margin: 15px auto 65px auto;  }
+	.novosti h3  { font-size: 14px; line-height:26px; font-weight:bold; }
+	.natrag { font-size:16px; padding: 10px 16px; display: inline-block; margin: 20px auto; }
+	#kontakt-sadrzaj h1 { margin:35px 0 10px 0; font-size:26px; line-height:35px;}
+	
+	.newsletteri { margin:0px 0 20px 0; }
+	
+	.lista ul { margin:0 0 40px 0; padding-left:10px; }
+	
+	#footer { text-align:center; }
+	
+	#footer .col-sm-3 { margin-top:15px; )
+	
+}
+
